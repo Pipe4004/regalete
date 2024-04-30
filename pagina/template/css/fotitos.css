@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #40E0D0; /* Turquesa */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: #ff69b4; /* Rosa */
+}
+
+/* Estilos para la sección de cartas y fotos */
+.cartas-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cartas-section h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}

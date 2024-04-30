@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00CED1; /* Turquesa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para que el contenedor ocupe toda la altura de la ventana */
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.carta h2 {
+    color: #ff0066; /* Color rosa */
+}
+
+.carta p {
+    color: #333; /* Color de texto negro */
+}
